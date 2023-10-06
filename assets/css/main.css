@@ -2785,6 +2785,27 @@ input, select, textarea {
 
 		}
 
+/* Note */
+
+.note {
+	-moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+}
+
+.note .content {
+	padding: 2em 4em 0.1em 4em ;
+	-moz-order: 2;
+	-webkit-order: 2;
+	-ms-order: 2;
+	order: 2;
+}
+
 /* Wrapper */
 
 	.wrapper {
